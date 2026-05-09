@@ -11,35 +11,30 @@ The protocol does **not** predict the future. It identifies conditions under whi
 **What this is for:** decision timing, strategic self-audit, structured reasoning, and AI-assisted analysis.  
 **What this is not for:** fortune-telling, deterministic prediction, reassurance, or professional advice.
 
-The canonical protocol file is `protocol-v2.1.md`. It defines classical Zi Ping lineage logic, verification through Step 8 hard checks and Section 5 falsification conditions, and version control: v2.1 is locked. Future protocol changes require a new versioned protocol file and changelog entry.
+## How to Use
+
+**Step 1 — Get your chart**
+
+Go to https://www.mingli.info/bazi
+
+Enter your Gregorian birth date, exact birth time (24h), birth city, and gender. Take a screenshot of the chart result.
+
+**Step 2 — Load the protocol**
+
+Open the file **protocol-v2.1.md** in this repository. Click the Raw button, select all, and copy the full text. Send it as the first message to Claude or ChatGPT. The AI will confirm the protocol is loaded.
+
+**Step 3 — Ask your question**
+
+In a second message, attach your chart screenshot and send the prompt from **episode-01-prompt.md**. The AI will run the full reasoning chain and answer the 6-point framework.
 
 ## Files
 
-- [protocol-v2.1.md](protocol-v2.1.md) - authoritative protocol text. Preserved unchanged from the source document.
-- [episode-01-prompt.md](episode-01-prompt.md) - execution prompt wrapper for the first analysis episode.
-- [charting-guide.md](charting-guide.md) - input and run-order guide.
-- [valid-output-checklist.md](valid-output-checklist.md) - pass/fail checklist for generated outputs.
-- [disclaimer.md](disclaimer.md) - scope and reliance limits.
-- [changelog.md](changelog.md) - version history and change control.
-- [LICENSE](LICENSE) - reuse terms.
-
-## Integrity Rule
-
-`protocol-v2.1.md` is the canonical file.
-
-Do not paraphrase it as a substitute for execution. Do not simplify it. Do not change rule order, tags, lineage priority, required steps, falsification conditions, or output format.
-
-If any support document appears to conflict with the canonical `protocol-v2.1.md` file, the protocol controls.
-
-## Standard Use
-
-1. Read [disclaimer.md](disclaimer.md).
-2. Load [protocol-v2.1.md](protocol-v2.1.md) in full.
-3. Collect the required input package using [charting-guide.md](charting-guide.md).
-4. Run the analysis with [episode-01-prompt.md](episode-01-prompt.md).
-5. Validate the result against [valid-output-checklist.md](valid-output-checklist.md).
-
-No output is valid unless it follows the complete mandatory chain in the protocol.
+- **protocol-v2.1.md** — the canonical protocol text. Locked. Do not modify.
+- **episode-01-prompt.md** — the actual prompt used in Episode 01.
+- **valid-output-checklist.md** — pass/fail checklist for advanced users who want to audit AI output against the protocol.
+- **disclaimer.md** — scope and reliance limits.
+- **changelog.md** — version history.
+- **LICENSE** — CC BY 4.0.
 
 ## Citation
 
@@ -47,4 +42,4 @@ If you reference this protocol in writing, video, or research, cite it as:
 
 > Time Intelligence Protocol v2.1. https://github.com/timeintelligence/time-intelligence-protocol
 
-If you test the protocol and collect pass/fail evidence, keep the evidence dated. Single-chart failures do not invalidate the protocol; systemic patterns are handled through the falsification conditions in `protocol-v2.1.md`.
+If you test the protocol and collect pass/fail evidence, keep the evidence dated. Single-chart failures do not invalidate the protocol. Systemic patterns are handled through the falsification conditions stated in the canonical protocol file.
