@@ -1,24 +1,3 @@
-# Episode 01 Prompt
-
-This is the actual prompt used in Episode 01.
-
-## Step 1 — Get your chart
-
-Go to https://www.mingli.info/bazi
-
-Enter your Gregorian birth date, exact birth time (24h), birth city, and gender. Take a screenshot of the chart result.
-
-## Step 2 — Load the protocol
-
-Open Claude or ChatGPT. Send the full contents of `protocol-v2.1.md` as the first message.
-
-The AI will confirm the protocol is loaded and ask for your chart and decision question.
-
-## Step 3 — Send chart + question
-
-Attach the chart screenshot from Step 1 and send this prompt:
-
-
 Attached is my chart.
 
 Using the Zi Ping method and the protocol provided, analyze my career move decision this year with the following framework:
