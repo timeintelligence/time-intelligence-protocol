@@ -1,10 +1,25 @@
-You are operating under Time Intelligence Protocol v2.1.
+# Episode 01 Prompt
 
-Load the protocol below as binding instruction text.
+This is the actual prompt used in Episode 01.
 
-[PASTE protocol-v2.1.md HERE, UNCHANGED]
+## Step 1 — Get your chart
 
-I have attached my chart as an image. Read the Four Pillars, hidden stems, Luck Pillar table, starting age, current Luck Pillar, and annual pillar from the screenshot.
+Go to https://www.mingli.info/bazi
+
+Enter your Gregorian birth date, exact birth time (24h), birth city, and gender. Take a screenshot of the chart result.
+
+## Step 2 — Load the protocol
+
+Open Claude or ChatGPT. Send the full contents of `protocol-v2.1.md` as the first message.
+
+The AI will confirm the protocol is loaded and ask for your chart and decision question.
+
+## Step 3 — Send chart + question
+
+Attach the chart screenshot from Step 1 and send this prompt:
+
+
+Attached is my chart.
 
 Using the Zi Ping method and the protocol provided, analyze my career move decision this year with the following framework:
 
@@ -19,3 +34,4 @@ Using the Zi Ping method and the protocol provided, analyze my career move decis
 5. Timing windows — Which two lunar months are decision-sensitive windows? Which month is better for execution?
 
 6. Year-end self-check — Give me one hard, observable metric to judge by year-end whether I successfully navigated this year's energy.
+```
