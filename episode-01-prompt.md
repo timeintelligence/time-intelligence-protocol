@@ -13,4 +13,3 @@ Using the Zi Ping method and the protocol provided, analyze my career move decis
 5. Timing windows — Which two lunar months are decision-sensitive windows? Which month is better for execution?
 
 6. Year-end self-check — Give me one hard, observable metric to judge by year-end whether I successfully navigated this year's energy.
-```
