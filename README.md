@@ -11,9 +11,7 @@ The protocol does **not** predict the future. It identifies conditions under whi
 **What this is for:** decision timing, strategic self-audit, structured reasoning, and AI-assisted analysis.  
 **What this is not for:** fortune-telling, deterministic prediction, reassurance, or professional advice.
 
-Authority: classical Zi Ping lineage logic as defined inside `protocol-v2.1.md`.  
-Verification: Step 8 hard checks and Section 5 falsification conditions.  
-Version control: v2.1 is locked. Future protocol changes require a new versioned protocol file and changelog entry.
+The canonical protocol file is `protocol-v2.1.md`. It defines classical Zi Ping lineage logic, verification through Step 8 hard checks and Section 5 falsification conditions, and version control: v2.1 is locked. Future protocol changes require a new versioned protocol file and changelog entry.
 
 ## Files
 
@@ -31,7 +29,7 @@ Version control: v2.1 is locked. Future protocol changes require a new versioned
 
 Do not paraphrase it as a substitute for execution. Do not simplify it. Do not change rule order, tags, lineage priority, required steps, falsification conditions, or output format.
 
-If any support document appears to conflict with `protocol-v2.1.md`, the protocol controls.
+If any support document appears to conflict with the canonical `protocol-v2.1.md` file, the protocol controls.
 
 ## Standard Use
 
